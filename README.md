@@ -20,7 +20,7 @@
 
 ## 代码结构：使用前后分离的结构，完全使用Python实现
 
-> 1. C-CNN-SA-server.py表示后端的model api，直接通过post传参的形式进行，直接搭配nginx+Gunicorn部署即可
+> 1. C-CNN-SA-server.py表示后端的model api，直接通过get传参的形式进行，直接搭配nginx+Gunicorn部署即可
 > 2. C-CNN-SA-client.py表示模型前端的调用，传入用户的UGC内容，然后使用TextCNN的模型进行识别，模型第一次初始化的时间因为需要加载预训练模型，推理速度有些慢，目前单机单线曾运行的正常推理速度在100ms之内，多进程部署会继续提速
 
 
