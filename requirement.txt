@@ -1,0 +1,4 @@
+Flask==1.0.3
+Flask-RESTful==0.3.7
+gevent==1.4.0
+gunicorn==19.9.0

@@ -1,5 +1,15 @@
-# C-CNN-for-Chinese-Sentiment-Analysis
-## 
+
+[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
+
+
+
+
+### C-CNN-for-Chinese-Sentiment-Analysis
+#### 一个简单的NLP项目（文本情感分析）的flask后端API，修改了全局model load的方式，增加了模型推理的速度，使用nginx搭配Gunicorn启动Flask，使用虚拟环境搭配sh的启动方式，可以直接对model进行一键重启，并有错误日志监控
+ 
+
+
+
 基于字符级卷积神经的中文情感分析：
 1. 将顾客打分和评论情感进行两极映射，使用数据自动标注和基于弱监督预训练的数据增强方式自动扩充和优化数据集，实验证实了在情感分类中，使用本文的字符级卷积神经网络(C-CNN-SA)可以在不依赖分词的情况下，达到的精度和 F 值均高于词级粒度
 2. 在字符级向量化分类模型中，结果显示卷积神经网络在短文本情感分类中效果最好，字符级卷积神经网络在训练速度和效果上优势明显
