@@ -32,6 +32,10 @@
 
 <div align=center><img  src="https://github.com/CarryChang/C-CNN-for-Chinese-Sentiment-Analysis/blob/master/pic/restful_api.png"></div>
 
+> Jupyter notebook 打印的结果
+
+<div align=center><img  src="https://github.com/CarryChang/C-CNN-for-Chinese-Sentiment-Analysis/blob/master/pic/result.png"></div>
+
 
 > 本地Pycharm输出的结果
 
